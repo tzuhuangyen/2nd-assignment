@@ -152,6 +152,12 @@ span {
   font-style: italic; }
 
 .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-image: url("../images/banner.png");
   height: 958px;
   background-size: cover;
@@ -160,7 +166,6 @@ span {
   background-color: #707070; }
   .banner .container {
     width: 320px;
-    padding-top: 308px;
     color: white; }
     .banner .container h1 {
       font-size: 80px;
@@ -186,6 +191,8 @@ span {
                 transform: scale(1.5); }
 
 .about .about-info {
+  margin: 0 auto;
+  width: 384px;
   border-bottom: 1px solid #000; }
 
 .about .about-work {
@@ -208,7 +215,7 @@ span {
       line-height: 42px;
       font-weight: 500;
       padding-bottom: 32px; }
-    .myBrand .container h4 {
+    .myBrand .container p {
       font-weight: 500;
       line-height: 30px; }
     .myBrand .container .myBrand-imgs {
