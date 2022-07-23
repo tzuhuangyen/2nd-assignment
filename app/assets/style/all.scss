@@ -162,7 +162,8 @@ span{
   font-style: italic;
 }
 
-.banner{
+.banner{display: flex;
+  align-items: center;
         background-image: url("../images/banner.png");
         // width: 1920px;
         height: 958px;
@@ -172,7 +173,7 @@ span{
         background-color:#707070;
         .container{
           width: 320px;
-          padding-top: 308px;
+         
           color: white;
           h1{
             font-size: 80px;
@@ -207,6 +208,8 @@ span{
  
 .about{
       .about-info{
+       margin: 0 auto;
+        width: 384px;
         border-bottom: 1px solid #000;
       }
       .about-work{
@@ -237,7 +240,7 @@ span{
       font-weight: 500;
       padding-bottom: 32px;
     }
-    h4{
+    p{
       font-weight: 500;
       line-height: 30px;
     }
